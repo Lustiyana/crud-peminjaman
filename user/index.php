@@ -104,7 +104,7 @@ session_start();
 						</li>
 
 						<li class="nav-item">
-							<a href="?view=datapinjammobil">
+							<a href="?view=datapinjamlapangan">
 								<i class="fas fa-briefcase"></i>
 								<p>Pinjam Lapangan</p>
 							</a>
@@ -168,13 +168,13 @@ session_start();
 
 					// Data Pinjam Lapangan
                     elseif($_GET['view']=='datapinjamlapangan')
-                        include 'peminjaman/mobil/datapinjamlapangan.php';
+                        include 'peminjaman/lapangan/datapinjamlapangan.php';
 
                     elseif($_GET['view']=='createpinjamlapangan')
-                        include 'peminjaman/mobil/createpinjamlapangan.php';
+                        include 'peminjaman/lapangan/createpinjamlapangan.php';
 
                     elseif($_GET['view']=='datapinjamlapangan')
-                        include 'peminjaman/mobil/datapinjamlapangan.php';
+                        include 'peminjaman/lapangan/datapinjamlapangan.php';
 
                  ?>
 		
